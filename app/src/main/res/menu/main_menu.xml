@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/inicio"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Inicio"
+            />
+        <item android:id="@+id/carrito"
+            android:icon="@drawable/baseline_add_shopping_cart_24"
+            android:title="Mi Carrito"
+            />
+        <item android:id="@+id/pedidos"
+            android:icon="@drawable/baseline_checklist_rtl_24"
+            android:title="Mis Pedidos"
+            />
+    </group>
+    <item android:title="Comunicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/wasa"
+                    android:icon="@drawable/baseline_phone_android_24"
+                    android:title="WhatsApp"
+                    />
+                <item android:id="@+id/telefono"
+                    android:icon="@drawable/baseline_phone_forwarded_24"
+                    android:title="Telefono"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Ajustes">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/tema"
+                    android:icon="@drawable/baseline_public_off_24"
+                    android:title="Tema"
+                    />
+                <item android:id="@+id/login"
+                    android:icon="@drawable/baseline_login_24"
+                    android:title="Cerrar Sesión"
+                    />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

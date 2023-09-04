@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Plaza Vea</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="item1">Boton1</string>
+    <string name="item2">Boton2</string>
+    <string name="item3">Boton3</string>
+
+</resources>
